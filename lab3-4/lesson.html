@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Trial Lesson | MM </title> 
+    <meta charset = "UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/lab.css">
+      <style>
+         .menu li:nth-child(5) {
+              text-decoration: underline;
+          }
+          form {
+              width: 960px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              padding-top: 5px;
+              padding-bottom: 10px; /*t-r-b-l, 5 20 10 20*/
+              padding-left: 20px;
+              padding-right: 20px;
+              border: 1px solid #999999;
+          }
+          button {
+              color: #ffd700;
+              font-weight: 700;
+              font-size: 14px;
+              background-color: black;
+              width: 80px;
+              height: 25px;
+          }
+      </style>
+    </head>
+    <body>
+        <header>
+        <img class = "logo" src = "images/logo.jpg" width = "200px">
+        <nav class = "menu">
+<!--nav makes a navigation in website, it is used to show main href block. class menu is used to show it is menu!-->
+        <ol>
+        <!-- defines a list with circles !-->
+            <li><a class = "menu"  href="dance.html">Dance</a></li>
+            <li><a class = "menu" href="studio.html">Studio</a></li>
+            <li><a class = "menu" href="lesson.html">Trial lesson</a>
+          
+         <!-- Li is for lists !-->
+   <!--A HREF is used to scroll pages !-->
+        </ol>
+        </nav>
+        </header>
+        
+        <main>
+            <h2>Trial repetition application</h2>
+            <hr>
+            <form action="mailto:a_almikhanova@bk.ru" method="post">
+        <p>First Name: </p>
+       <input type="text" name = "1name">
+       <!-- creates a box to write an information !-->
+       <p>Last Name: </p>
+       <input type="text" name = "2name">
+    <hr>
+       <!-- HR creates line !-->
+       <p>Your age: </p>
+       <select>
+           <option>Choose</option>
+           <option>10-15</option>
+           <option>16-20</option>
+           <option>21-25</option>
+           <option>25+</option><!--Option is one element of select!-->
+       </select> <!--select creates a box with several options!-->
+                <hr>
+       <p>Select styles you interested: </p>
+       <input type="checkbox" name="H" value="H">
+       <!-- checkbox is to create a multiselection !-->
+             <label for="H">Hip-Hop </label> <br>
+       <!-- label is to give a name to an option !-->
+        <input type="checkbox" name="K" value="K">
+             <label for="K">K-pop</label> <br>
+        <input type="checkbox"  name="F" value="F">
+             <label for="F">Female Hop</label> <br>
+        <input type="checkbox"  name="S" value="S">
+             <label for="S" >Shuffle</label> <br>
+        <input type="checkbox"  name="L" value="L">
+             <label for="L">Lady Style</label> <br>
+        <input type="checkbox"  name="P" value="P">
+             <label for="P">Popping</label> <br>
+        <input type="checkbox"  name="FS" value="FS">
+             <label for="FS">Free Style</label> <br>
+       <hr>
+       <p>Upload ID: </p>
+       <input type="file">
+       <!-- to upload a file !-->
+       <hr>
+       <p>Additional Information: <br>  <!-- is to transper a line !-->
+       <textarea name = "text"></textarea> <br>
+           <!-- textarea is used to create a box to write more information that input text !--> 
+           <button type="submit" >Submit</button> </p>
+            </form>
+        </main>
+        <div class = "blog">
+        <footer>
+            <h3>CONTACTS AND BLOGS ABOUT DANCING STYLES</h3>
+            <br>
+            <div class = "blogs">
+            <div class = "hiphop">
+                <h4>Hip-Hop</h4>
+                <p>Anya<br>
+                +7-(707)-768-78-98</p>
+            <a href = "" target = "_blank">More</a>
+                </div>
+            <div class = "kpop">
+                <h4>K-pop</h4>
+                <p>Adyoka<br>
+                +7-(707)-458-05-05</p>
+            <a href = "" target = "_blank">More</a>
+                </div>
+            <div class = "femalehop">
+                <h4>Female Hop</h4>
+                <p>Azhar<br>
+                +7-(701)-900-01-91</p>
+            <a href = "" target = "_blank">More</a>
+                </div>
+            <div class = "shuffle">
+                <h4>Shuffle</h4>
+                <p>Asa<br>
+                +7-(707)-690-83-83</p>
+            <a href = "" target = "_blank">More</a>
+                </div>
+            <div class = "lady">
+                <h4>Lady Style</h4>
+                <p>Akira<br>
+                +7-(777)-667-70-78</p>
+            <a href = "" target = "_blank">More</a>
+                </div>
+            <div class = "popping">
+                <h4>Popping</h4>
+                <p>Aldik<br>
+                +7-(747)-080-34-21</p>
+            <a href = "" target = "_blank">More</a>
+                </div>
+            <div class = "freestyle">
+                <h4>Free Style</h4>
+                <p>Mado<br>
+                +7-(701)-118-90-22</p>
+            <a href = "" target = "_blank">More</a>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>
