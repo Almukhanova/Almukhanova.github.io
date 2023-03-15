@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-size: 20px;
     line-height: 1.6;
-    color: #333;
+    color: #4E4E4E;
     background-size: cover;
 }
 .container {
@@ -40,7 +40,7 @@ body {
 .nav_link {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
-    color: #333;
+    color: #4E4E4E;
     font-size: 22px;
 }
 /* CONTACT */
@@ -58,8 +58,8 @@ body {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: #333;
-    border: 3px solid #333;
+    color: #4E4E4E;
+    border: 3px solid #4E4E4E;
     margin: auto;
     padding: 15px 40px;
     border-radius: 15px;
@@ -68,7 +68,7 @@ body {
 
 .contact_btn:hover {
     color: white;
-    background-color: #333;
+    background-color: #4E4E4E;
 }
 
 /* INTRO CONTENT */
@@ -101,7 +101,7 @@ body {
     font-weight: 300;
     font-size: 82px;
     line-height: 82px;
-    color: #333;
+    color: #4E4E4E;
 }
 .intro_content_text {
     width: 100%;
@@ -164,7 +164,7 @@ body {
 .block3_item_title:before {
     display: block;
     content: "";
-    background-color: #333;
+    background-color: #4E4E4E;
     width: 100%;
     max-width: 51px;
     height: 3px;
@@ -393,7 +393,7 @@ body {
     position: absolute;
     right: 20px;
     z-index: 1;
-    background-color: #333;
+    background-color: #4E4E4E;
     transition: transform 0.5s ease 0s;
 }
 
